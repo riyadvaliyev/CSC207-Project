@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.yibin</groupId>
-    <artifactId>CSC207_Project</artifactId>
+    <artifactId>CSC207-Project</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
