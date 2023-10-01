@@ -1,5 +1,5 @@
 # CSC207-Project
-Copyright © [2023] Marshal Guo, Eric Cui, Dexter Tam, Riyad Valiyev, Jihyuk Yoon.
+Copyright © [2023] Marshal Guo, Yibin Cui, Dexter Tam, Riyad Valiyev, Jihyuk Yoon.
 
 ## Problem Domain
 <!-- Problem Domain -->
@@ -92,6 +92,7 @@ better serve the client.
 Unfortunately, Google has sunsetted conversational actions, so I couldn’t get my bearer token to make a request to
 DialogFlow on third-party developing tools like Postman. Thus, I used JavaScript to make the query with my credentials. As demonstrated, after the
 initial training of minimal data, our chatbot Benson can respond to making simple diagnoses and finding doctors.
+
 <img src="assets/vscode_dialogflow_1.png" style="width: 600px">
 <img src="assets/vscode_dialogflow_2.png" style="width: 600px">
 
