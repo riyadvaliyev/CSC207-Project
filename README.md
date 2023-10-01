@@ -62,11 +62,24 @@ added the data to the cloud-based database. This demonstrates that our MongoDB i
 <img src="assets/insertExample.png" style="width: 600px" alt="query Eric succeed">
 
 ### 2. DialogFlow
-Dialogflow is an NLP tool that consists of features like intent recognition and entity extraction, and it also enables more interactive and context-aware conversations between users and software.
+Dialogflow is an NLP tool that consists of features like intent recognition and entity extraction, and it also enables
+more interactive and context-aware conversations between users and software. Specifically, intent means what is the 
+user suggesting the software should do, and entity means the keywords the software should pick out as data and
+information. By adding the context attribute, we can connect intents to form a series of questions and responses to
+better serve the client.
+
+<img src="assets/dialogflow_site_1.png" style="width: 600px">
+<img src="assets/dialogflow_site_2.png" style="width: 600px">
 
 
+Unfortunately, Google has sunsetted conversational actions, so I couldn’t get my the bearer token to make request to
+DialogFlow on Postman. Thus, I used JavaScript to make the query with my credentials. As demonstrated, after the
+initial training of minimal data, our chatbot Benson can respond to making simple diagnosis and finding doctors.
+<img src="assets/vscode_dialogflow_1.png" style="width: 600px">
+<img src="assets/vscode_dialogflow_2.png" style="width: 600px">
 
-Unfortunately, Google has sunsetted conversational actions, so I couldn’t get my the bearer token to make request to DialogFlow on Postman. Thus, I found a JavaScript code that makes the query. As demonstrated, after the initial training of minimal data, our chatbot Benson can respond to making simple diagnosis and finding doctors.
+Finally, we tested out the API with Java, and everything worked pretty smooth.
+<img src="assets/java_dialogflow_2.png" style="width: 600px">
 
 
 ## Technical Issues
