@@ -62,6 +62,12 @@ added the data to the cloud-based database. This demonstrates that our MongoDB i
 <img src="assets/insertExample.png" style="width: 600px" alt="query Eric succeed">
 
 ### 2. DialogFlow
+Dialogflow is an NLP tool that consists of features like intent recognition and entity extraction, and it also enables more interactive and context-aware conversations between users and software.
+
+
+
+Unfortunately, Google has sunsetted conversational actions, so I couldn’t get my the bearer token to make request to DialogFlow on Postman. Thus, I found a JavaScript code that makes the query. As demonstrated, after the initial training of minimal data, our chatbot Benson can respond to making simple diagnosis and finding doctors.
+
 
 ## Technical Issues
 
