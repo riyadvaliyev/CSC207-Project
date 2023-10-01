@@ -33,7 +33,7 @@ The application will have 3 primary stages:
    choose to receive treatment.
 3. A chatting feature, including text, pictures, and video, between the doctor and patient to provide treatment.
 
-Users and practitioners will be able to log in and log out of accounts, and basic user information will be stored via
+Users and practitioners will be able to log in and out of the accounts, and basic user information will be stored via
 MongoDB.
 
 ## APIs
