@@ -29,7 +29,7 @@ diseases are concerned with.
 The application will have 3 primary stages:
 
 1. Preliminary identification of the patient's symptoms and possible causes through Dialogflow.
-2. Referral to a list of general practitioners or specialists in the affected fields, from which the patient can then
+2. Referral to a list of general practitioners or specialists in the relevant fields, from which the patient can then
    choose to receive treatment.
 3. A chatting feature, including text, pictures, and video, between the doctor and patient to provide treatment.
 
