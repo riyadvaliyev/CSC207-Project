@@ -7,6 +7,10 @@ import org.bson.Document;
 
 public class MongodbExample {
     public static void main(String[] args) {
+        insertExample();
+    }
+
+    private static void insertExample() {
         try (MongoClient client = MongoClients.create("mongodb+srv://Accusamus:1234@cluster0.snnw8on.mongodb.net/?retryWrites=true&w=majority")) {
             // Access database
             MongoDatabase db = client.getDatabase("sampleDB");
