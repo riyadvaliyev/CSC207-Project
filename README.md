@@ -1,4 +1,5 @@
 # CSC207-Project
+Copyright © [2023] Marshal Guo, Eric Cui, Dexter Tam, Riyad Valiyev, Jihyuk Yoon.
 
 ## Problem Domain
 <!-- Problem Domain -->
