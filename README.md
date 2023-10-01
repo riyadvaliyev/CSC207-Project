@@ -36,6 +36,10 @@ they will have the opportunity not only to peruse web content but also to engage
 chatbot will facilitate the process of finding an appropriate doctor based on your symptoms, enabling you to take any
 necessary actions accordingly.
 
+Documentation for MongoDB Atlas and DialogFlow can be found in the following links:
+1. [MongoDB Atlas](https://www.mongodb.com/docs/)
+2. [DialogFlow](https://cloud.google.com/dialogflow/es/docs)
+
 ## Examples
 
 ### 1. MongoDB Atlas
