@@ -1,18 +1,20 @@
 # CSC207-Project
+
 Copyright © [2023] Marshal Guo, Yibin Cui, Dexter Tam, Riyad Valiyev, Jihyuk Yoon.
 
 ## Problem Domain
+
 <!-- Problem Domain -->
-Our problem domain lies in healthcare; we aim to build a website that simplifies the process of people looking for treatments.
-Imagine, you are an adult in this modern world, you unfortunately hurt yourself or have gone ill. Where do you find a doctor? Just like
-nobody taught you how to do taxes, you have no clue where to start. You start browsing on
+Our problem domain lies in healthcare; we aim to build a website that simplifies the process of people looking for
+treatments. Imagine, you are an adult in this modern world, you unfortunately hurt yourself or have gone ill. Where do
+you find a doctor? Just like nobody taught you how to do taxes, you have no clue where to start. You start browsing on
 government websites, yikes, wordy instructions and links that refer you elsewhere on the internet. Tired of it all, you
 are almost about to give up and leave your discomfort unattended. BUT what if we tell you there is a universal website
 that can find you a doctor in seconds? And that is where Benson (the name is still prone to change) comes in, a virtual
-assistant that helps you find the right doc according to your symptoms in the pre-screening phase. Skipping having to wait
-on a bench in the clinic with crying babies at your companion, you can talk to your healthcare professional directly via messaging.
-And this isn't just limited to young adults, everyone who looks for more efficient and accessible healthcare would get
-benefited from this website.
+assistant that helps you find the right doc according to your symptoms in the pre-screening phase. Skipping having to
+wait on a bench in the clinic with crying babies at your companion, you can talk to your healthcare professional
+directly via messaging. And this isn't just limited to young adults, everyone who looks for more efficient and
+accessible healthcare would get benefited from this website.
 
 ## Description
 
@@ -50,6 +52,7 @@ chatbot will facilitate the process of finding an appropriate doctor based on yo
 necessary actions accordingly.
 
 Documentation for MongoDB Atlas and DialogFlow can be found in the following links:
+
 1. [MongoDB Atlas](https://www.mongodb.com/docs/)
 2. [DialogFlow](https://cloud.google.com/dialogflow/es/docs)
 
@@ -79,27 +82,31 @@ added the data to the cloud-based database. This demonstrates that our MongoDB i
 <img src="assets/insertExample.png" style="width: 600px" alt="query Eric succeed">
 
 ### 2. DialogFlow
+
 Dialogflow is an NLP tool that consists of features like intent recognition and entity extraction, and it also enables
 more interactive and context-aware conversations between users and software. Specifically, intent means what the
 user suggests the software should do, and entity means the keywords the software should pick out as data and
 information. By adding the context attribute, we can connect intents to form a series of questions and responses to
 better serve the client.
 
-<img src="assets/dialogflow_site_1.png" style="width: 600px">
-<img src="assets/dialogflow_site_2.png" style="width: 600px">
+<img src="assets/dialogflow_site_1.png" style="width: 600px" alt="">
+<img src="assets/dialogflow_site_2.png" style="width: 600px" alt="">
 
 
 Unfortunately, Google has sunsetted conversational actions, so I couldn’t get my bearer token to make a request to
-DialogFlow on third-party developing tools like Postman. Thus, I used JavaScript to make the query with my credentials. As demonstrated, after the
-initial training of minimal data, our chatbot Benson can respond to making simple diagnoses and finding doctors.
+DialogFlow on third-party developing tools like Postman. Thus, I used JavaScript to make the query with my credentials.
+As demonstrated, after the initial training of minimal data, our chatbot Benson can respond to making simple diagnoses
+and finding doctors.
 
-<img src="assets/vscode_dialogflow_1.png" style="width: 600px">
-<img src="assets/vscode_dialogflow_2.png" style="width: 600px">
+<img src="assets/vscode_dialogflow_1.png" style="width: 600px" alt="">
+<img src="assets/vscode_dialogflow_2.png" style="width: 600px" alt="">
 
 Finally, we tested out the API with Java, and everything worked pretty smoothly.
-<img src="assets/java_dialogflow_2.png" style="width: 600px">
+
+<img src="assets/java_dialogflow_2.png" style="width: 600px" alt="">
 
 ## Technical Issues
+
 Since messaging is still a big part of our website, the core issue is to work out the architecture of the database
 to store the messaging data, as well as how to update that in real time. In addition, we would also have to design two
 interfaces, one for the patients and the other for the doctors. We could resort to using modular JavaScript libraries
