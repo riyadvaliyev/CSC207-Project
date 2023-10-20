@@ -1,15 +1,18 @@
-package entities;
+package entity;
 
-public class Patient implements User {
+public class Doctor implements User{
     private String username;
     private String password;
+    private String specialty;
+    private String degree;
 
-    public Patient(String username, String password) {
+    public Doctor(String username, String password, String specialty, String degree) {
         this.username = username;
         this.password = password;
+        this.specialty = specialty;
+        this.degree = degree;
     }
 
-    @Override
     public String getUsername() {
         return username;
     }
