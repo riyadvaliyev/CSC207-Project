@@ -1,15 +1,14 @@
 package entities;
 
-public class Patient implements User {
+public class Doctor implements User{
     private String username;
     private String password;
 
-    public Patient(String username, String password) {
+    public Doctor(String username, String password) {
         this.username = username;
         this.password = password;
     }
 
-    @Override
     public String getUsername() {
         return username;
     }
